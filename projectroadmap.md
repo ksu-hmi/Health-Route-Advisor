@@ -5,9 +5,8 @@
 - [x] Have ownership of a code repository with organization
 - [x] Edit and commit changes to a readme.md file within repository
 - [ ] Explore existing python code related to project
-_ - [ ] https://github.com/parthsompura/Disease-prediction-using-Machine-Learning
-_ - [ ]
-_ - [ ]
+      - [ ] https://github.com/parthsompura/Disease-prediction-using-Machine-Learning
+      - [ ]
 - [ ] Evaluate and submit changes to project
 - [ ] Evaluate and run code
 

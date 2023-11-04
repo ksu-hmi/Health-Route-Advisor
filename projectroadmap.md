@@ -4,7 +4,7 @@
 - [x] Establish Github account and join KSU-HMI organization
 - [x] Have ownership of a code repository with organization
 - [x] Edit and commit changes to a readme.md file within repository
-- [ ] Explore existing python code related to project (see below)
+- [x] Explore existing python code related to project (see below)
 - [x] https://github.com/parthsompura/Disease-prediction-using-Machine-Learning (unable to get code to work successfully)
 - [x] [https://github.com/LabinatorSolutions/medical-symptom-checker](https://github.com/adrgonz4354/MET-CS-521-Final-Project/blob/main/Final_Python_Project.py) (able to review code and succcessfully use the symptom checker.)
 - [ ] Evaluate and submit changes to project

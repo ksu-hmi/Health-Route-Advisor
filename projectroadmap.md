@@ -8,13 +8,13 @@
 - [x] https://github.com/parthsompura/Disease-prediction-using-Machine-Learning (unable to get code to work successfully)
 - [x] [https://github.com/LabinatorSolutions/medical-symptom-checker](https://github.com/adrgonz4354/MET-CS-521-Final-Project/blob/main/Final_Python_Project.py) (able to review code and succcessfully use the symptom checker.)
 - [x] Review additional resources (https://www.youtube.com/watch?v=wfcWRAxRVBA)
-- [ ] Evaluate and submit changes to project
-- [ ] Evaluate and run code
+- [x] Evaluate and submit changes to project
+- [x] Evaluate and run code
 
 ## **Sprint 2**
-- [ ] Make updates as needed with commit messages within designated organization
-- [ ] Commit a minimum of 6 code changes of significant size
-- [ ] Update projectroadmap as tasks are completed
+- [x] Make updates as needed with commit messages within designated organization
+- [x] Commit a minimum of 6 code changes of significant size
+- [x] Update projectroadmap as tasks are completed
       
 ## **Sprint 3**
 - [ ] Continue coding, refining, and testing

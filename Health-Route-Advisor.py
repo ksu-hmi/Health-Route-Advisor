@@ -1,3 +1,28 @@
+#function 2
+def advice_two():    
+
+    fever = input("Do you have a mild fever without rash? (Y/N): ")
+    wheeze = input("Are you wheezing or slightly short of breath? (Y/N): ")
+    cut_small = input("Do you have a small cut or minor injury? (Y/N): ")
+    flu = input("Do you have symptoms of flu? (Y/N): ")
+    vomiting = input("Are you experiencing nausea with vomiting? (Y/N): ")
+    diarrhea = input("Are you experiencing diarrhea? (Y/N): ")
+    urine = input("Are you having pain or difficulty with urinating? (Y/N): ")
+    bite = input("Do you a minor animal or insect bite? (Y/N): ")
+    allergy = input("Are you experiencing mild symptoms of allergic reaction(redness, itching, swelling, no difficulty breathing)? (Y/N): ")
+    if fever.lower() == 'y' or wheeze.lower() == 'y' or cut_small.lower() == 'y' or flu.lower() == 'y' or vomiting.lower() == 'y' or diarrhea.lower() == 'y' or urine.lower() == 'y' or bite.lower() == 'y' or allergy.lower() == 'y':
+        print("Please seek treatment at an urgent care. Thank you for using Health Route Advisor. Get well soon!")
+    else:
+        cold = input("Are you experiencing symptoms of a cold? (Y/N): ")
+        pink = input("Do you have symptoms of pink eye? (Y/N): ")
+        allergy2 = input("Are you experiencing mild allergy symptoms? (Y/N): ")
+        respiratory = input("Are you experiencing mild symptoms of respiratory illness? (Y/N): ")
+        if cold.lower() == 'y' or pink.lower() == 'y' or allergy2.lower() == 'y' or respiratory.lower() == 'y':
+            print("Please seek care from your primary care provider. If you do not have one or are unable to schedule a timely visit, please seek urgent care. Thank you for using Health Route Advisor. Get well soon!")
+        else:
+            print("Try Again")
+
+#Full code
 def advice():
 #introduction of program with brief explanation of urgent care, primary care, and emergency room visits
     print('Welcome to Health Route Advisor, please briefly review the information below before you begin.')
@@ -15,25 +40,8 @@ def advice():
         if emergency_room2.lower() == "y":
             print('Please seek care at an emergency room.')
         else:
-            fever = input("Do you have a mild fever without rash? (Y/N): ")
-            wheeze = input("Are you wheezing or slightly short of breath? (Y/N): ")
-            cut_small = input("Do you have a small cut or minor injury? (Y/N): ")
-            flu = input("Do you have symptoms of flu? (Y/N): ")
-            vomiting = input("Are you experiencing nausea with vomiting? (Y/N): ")
-            diarrhea = input("Are you experiencing diarrhea? (Y/N): ")
-            urine = input("Are you having pain or difficulty with urinating? (Y/N): ")
-            bite = input("Do you a minor animal or insect bite? (Y/N): ")
-            allergy = input("Are you experiencing mild symptoms of allergic reaction(redness, itching, swelling, no difficulty breathing)? (Y/N): ")
-            if fever.lower() or wheeze.lower() or cut_small.lower() or flu.lower() or vomiting.lower() or diarrhea.lower() or urine.lower() or bite.lower() or allergy.lower() == "y":
-                print("Please seek treatment at an urgent care. Thank you for using Health Route Advisor. Get well soon!")
-            else:
-                cold = input("Are you experiencing symptoms of a cold? (Y/N): ")
-                pink = input("Do you have symptoms of pink eye? (Y/N): ")
-                allergy2 = input("Are you experiencing mild allergy symptoms? (Y/N): ")
-                respiratory = input("Are you experiencing mild symptoms of respiratory illness? (Y/N): ")
-                if cold.lower() or pink.lower() or allergy2.lower() or respiratory.lower() == "y":
-                    print("Please seek care from your primary care provider. If you do not have one or are unable to schedule a timely visit, please seek urgent care. Thank you for using Health Route Advisor. Get well soon!")
-                else:
-                    print("Try Again")
+            advice_two()
+    else:
+        advice_two()
 
 advice()

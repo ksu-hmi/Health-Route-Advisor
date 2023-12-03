@@ -17,5 +17,5 @@
 - [x] Update projectroadmap as tasks are completed
       
 ## **Sprint 3**
-- [ ] Continue coding, refining, and testing
-- [ ] Create one PowerPoint slide introducing project and upload. Ensure there is a copy in  Github repository.
+- [x] Continue coding, refining, and testing
+- [x] Create one PowerPoint slide introducing project and upload. Ensure there is a copy in  Github repository.
